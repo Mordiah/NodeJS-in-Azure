@@ -17,13 +17,14 @@ global-reset()
  * Store the main color and
  * background color as variables
  */
-main-color = #fa5b4d
-background-color = #faf9f0
+main-color = #007ACC
+background-color = #2d2d2d
+link-color = #2196F3
 
 body
-  font-family 'Georgia'
+  font-family 'Segoe UI'
   background-color background-color
-  color #444
+  color whitesmoke
 
 header
   font-family 'Quicksand'
@@ -51,6 +52,12 @@ header
 
   p
     margin-bottom 20px
+ 
+  a
+    color link-color
+    text-decoration none
+    &:hover
+      text-decoration underline
 
 .sidebar
   float left
