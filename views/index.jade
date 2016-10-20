@@ -4,13 +4,26 @@ block content
   p
     | This is just and example of using NodeJS with Express,
     | Jade, and Stylus to server the CCM (if we wanted that).
+    | It is deployed using GitHub so anytime a change is pushed
+    | to the master branch it will be pulled, then built
+    | automatically from Azure.
     
   p
     | This could be seperate or built into
     | the 
-    a(href="ccselfserve.azurewebsites.net") SelfServer
+    a(href="http://ccselfserve.azurewebsites.net") SelfServer
     |  portal that allows resellers and customers to manage 
     | their products and services easier.
+
+  p
+    | Instead of NodeJS, we could use WordPress to power the sites
+    | like 
+    a(href="http://ccdeveloper.azurewebsites.net/") Developer Portal
+    | which has it's advantages as well.
+
+  p
+    | Or we can use any language, framework, or application 
+
 
 block sidebar
   .widget
